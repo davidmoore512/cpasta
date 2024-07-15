@@ -29,4 +29,4 @@ dish=$(cat "$pantry/$pasta" | tr \\n \\r | sed s/\\r*\$//)
 sleep 0.1
 
 # Type contents of file to current window. Removing the --delay flag will increase delay to default of 12ms.
-xdotool type --delay 0 "$dish"
+xdotool type --delay 5 "$dish"
